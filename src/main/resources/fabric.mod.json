@@ -16,8 +16,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "com.github.uquark0.omnilogger.Main"
+    "server": [
+      "com.github.uquark0.omnilogger.Server"
     ]
   },
   "mixins": [
@@ -28,9 +28,11 @@
     "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.16.x",
-    "quarkcore": ">=0.6.0"
+    "quarkcore": ">=0.6.3"
   },
   "suggests": {
     "flamingo": "*"
-  }
+  },
+
+  "accessWidener": "omnilogger.aw"
 }

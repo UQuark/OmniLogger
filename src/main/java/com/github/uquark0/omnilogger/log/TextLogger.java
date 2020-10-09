@@ -10,7 +10,7 @@ public abstract class TextLogger implements OmniLogger {
         print(String.format(
                 TEMPLATE,
                 info.player.getEntityName(),
-                info.action.perfectForm,
+                info.action.name,
                 Registry.BLOCK.getId(info.block).toString(),
                 info.pos.getX(),
                 info.pos.getY(),

@@ -4,11 +4,12 @@
   "package": "com.github.uquark0.omnilogger.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "ServerPlayNetworkHandlerMixin"
   ],
   "client": [
   ],
   "server": [
+    "ServerPlayNetworkHandlerMixin",
+    "BlockItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1

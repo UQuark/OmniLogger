@@ -11,15 +11,14 @@ import java.time.LocalTime;
 public class ActionInfo {
     public enum ActionType {
         BlockSet(1, "set"),
-        BlockDestroyed(2, "destroyed"),
-        BlockUsed(3, "used");
+        BlockDestroyed(2, "destroyed");
 
         public final int id;
-        public final String perfectForm;
+        public final String name;
 
-        ActionType(int id, String perfectForm) {
+        ActionType(int id, String name) {
             this.id = id;
-            this.perfectForm = perfectForm;
+            this.name = name;
         }
     }
 
